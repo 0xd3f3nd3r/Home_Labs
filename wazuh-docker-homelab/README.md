@@ -44,16 +44,15 @@ This homelab was built to gain practical hands-on experience in:
 
 # 🏗️ Architecture
 
-## 🌐 Unified SOC Architecture Diagram
+## 🌐 Wazuh Homelab Network Architecture Diagram
 
-> Replace this image with your exported Draw.io diagram.
 
 ```text
 architecture/
-└── unified-wazuh-soc-architecture.png
+└── Wazuh-Homelab-Network-Architecture.png
 ```
 
-![Architecture](architecture/unified-wazuh-soc-architecture.png)
+![Architecture](architecture/Wazuh-Homelab-Network-Architecture.png)
 
 ---
 
@@ -168,19 +167,19 @@ Monitor:
 docker ps
 ```
 
-![Docker Containers](screenshots/docker-containers.png)
+![Docker](screenshots/docker.png)
 
 ---
 
 ## 📊 Wazuh Dashboard
 
-![Wazuh Dashboard](screenshots/wazuh-dashboard.png)
+![Wazuh Dashboard](screenshots/w.dashboard.png)
 
 ---
 
 ## 💻 Virtual Machines
 
-![Virtual Machines](screenshots/virtual-machines.png)
+![Virtual Machines](screenshots/vm.png)
 
 ---
 
@@ -190,7 +189,7 @@ docker ps
 systemctl status docker
 ```
 
-![Docker Status](screenshots/docker-status.png)
+![Docker Status](screenshots/docker(1).png)
 
 ---
 
@@ -258,23 +257,6 @@ NET START WazuhSvc
 ```
 
 ---
-
-# 📂 Repository Structure
-
-```text
-wazuh-docker-homelab/
-│
-├── architecture/
-├── screenshots/
-├── docker/
-├── agents/
-├── detection-rules/
-├── documentation/
-├── dashboards/
-├── logs/
-├── README.md
-└── docker-compose.yml
-```
 
 ---
 
